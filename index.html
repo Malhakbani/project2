@@ -4,26 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Feedr @ GA</title>
+    <title>The best source for your news</title>
     <link rel="stylesheet" href="styles/normalize.css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="styles/html5bp.css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="styles/style.css" media="screen" charset="utf-8">
 </head>
 <body>
-    <!--[if lt IE 8]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-
+    
     <header>
       <section class="container">
         <a href="#"><h1>Feedr</h1></a>
         <nav>
           <ul>
-            <li><a href="#">News Source: <span>Source Name</span></a>
+            <li><a href="#">News Source: <span>Chose your trusted source</span></a>
               <ul>
-                  <li><a href="#">Source 1</a></li>
-                  <li><a href="#">Source 2</a></li>
-                  <li><a href="#">Source 3</a></li>
+                  <li><a href="#" id="news">The News</a></li>
+                  <li><a href="#" id="TNYT">The NY Times</a></li>
               </ul>
             </li>
           </ul>
@@ -32,74 +28,24 @@
             <a href="#"><img src="images/search.png" alt="" /></a>
           </section>
         </nav>
+        
         <div class="clearfix"></div>
       </section>
     </header>
-    <div id="popUp" class="loader hidden">
-      <a href="#" class="closePopUp">X</a>
+    <div id="popUp" class="loader" hidden= "True"> 
+      <a href="#" class="closePopUp"></a>
       <div class="container">
         <h1>Article title here</h1>
         <p>
-          Article description/content here.
+          <div class="pageone">
+
+          </div>
         </p>
-        <a href="#" class="popUpAction" target="_blank">Read more from source</a>
+        <a href="#" class="popUpAction" target="_blank">Read more</a>
       </div>
     </div>
-    <section id="main" class="container">
-      <article class="article">
-        <section class="featuredImage">
-          <img src="images/article_placeholder_1.jpg" alt="" />
-        </section>
-        <section class="articleContent">
-            <a href="#"><h3>Test article title</h3></a>
-            <h6>Lifestyle</h6>
-        </section>
-        <section class="impressions">
-          526
-        </section>
-        <div class="clearfix"></div>
-      </article>
-      <article class="article">
-        <section class="featuredImage">
-          <img src="images/article_placeholder_2.jpg" alt="" />
-        </section>
-        <section class="articleContent">
-            <a href="#"><h3>Test article title</h3></a>
-            <h6>Lifestyle</h6>
-        </section>
-        <section class="impressions">
-          526
-        </section>
-        <div class="clearfix"></div>
-      </article>
-      <article class="article">
-        <section class="featuredImage">
-          <img src="images/article_placeholder_2.jpg" alt="" />
-        </section>
-        <section class="articleContent">
-            <a href="#"><h3>Test article title</h3></a>
-            <h6>Lifestyle</h6>
-        </section>
-        <section class="impressions">
-          526
-        </section>
-        <div class="clearfix"></div>
-      </article>
-      <article class="article">
-        <section class="featuredImage">
-          <img src="images/article_placeholder_1.jpg" alt="" />
-        </section>
-        <section class="articleContent">
-            <a href="#"><h3>Test article title</h3></a>
-            <h6>Lifestyle</h6>
-        </section>
-        <section class="impressions">
-          526
-        </section>
-        <div class="clearfix"></div>
-      </article>
+    <section id="Pageone" class="container">
     </section>
-
     <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
